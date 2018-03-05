@@ -12,10 +12,10 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "Kiss Templates",
+          "label": "Kiss Tempates",
           "submenu": [
             {
-              "label": "Insert Template",
+              "label": "Insert",
               "command": "atom-kiss-cli:insert"
             }
           ]

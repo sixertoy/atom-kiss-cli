@@ -1,13 +1,13 @@
 'use babel';
 
-import AtomKiss from '../lib/atom-kiss-cli';
+import AtomKissCli from '../lib/atom-kiss-cli';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
 // To run a specific `it` or `describe` block add an `f` to the front (e.g. `fit`
 // or `fdescribe`). Remove the `f` to unfocus the block.
 
-describe('AtomKiss', () => {
+describe('AtomKissCli', () => {
   let workspaceElement, activationPromise;
 
   beforeEach(() => {
@@ -32,13 +32,15 @@ describe('AtomKiss', () => {
       runs(() => {
         expect(workspaceElement.querySelector('.atom-kiss-cli')).toExist();
 
-        let atomKissElement = workspaceElement.querySelector('.atom-kiss-cli');
-        expect(atomKissElement).toExist();
+        let atomKissCliElement = workspaceElement.querySelector(
+          '.atom-kiss-cli'
+        );
+        expect(atomKissCliElement).toExist();
 
-        let atomKissPanel = atom.workspace.panelForItem(atomKissElement);
-        expect(atomKissPanel.isVisible()).toBe(true);
+        let atomKissCliPanel = atom.workspace.panelForItem(atomKissCliElement);
+        expect(atomKissCliPanel.isVisible()).toBe(true);
         atom.commands.dispatch(workspaceElement, 'atom-kiss-cli:insert');
-        expect(atomKissPanel.isVisible()).toBe(false);
+        expect(atomKissCliPanel.isVisible()).toBe(false);
       });
     });
 
@@ -63,10 +65,12 @@ describe('AtomKiss', () => {
 
       runs(() => {
         // Now we can test for view visibility
-        let atomKissElement = workspaceElement.querySelector('.atom-kiss-cli');
-        expect(atomKissElement).toBeVisible();
+        let atomKissCliElement = workspaceElement.querySelector(
+          '.atom-kiss-cli'
+        );
+        expect(atomKissCliElement).toBeVisible();
         atom.commands.dispatch(workspaceElement, 'atom-kiss-cli:insert');
-        expect(atomKissElement).not.toBeVisible();
+        expect(atomKissCliElement).not.toBeVisible();
       });
     });
   });
