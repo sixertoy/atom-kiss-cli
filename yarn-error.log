@@ -1,0 +1,51 @@
+Arguments: 
+  /Users/matthieu/.nvm/versions/node/v8.9.3/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/matthieu/.nvm/versions/node/v8.9.3/bin:/Users/matthieu/.bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/opt/X11/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.3
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "atom-kiss-cli",
+    "main": "./lib/atom-kiss-cli",
+    "version": "0.1.0",
+    "description": "Shareable agnostics templates (Keep It Stupid Simple)",
+    "keywords": [],
+    "activationCommands": {
+      "atom-workspace": "atom-kiss-cli:insert"
+    },
+    "repository": "https://github.com/atom/atom-kiss-cli",
+    "license": "MIT",
+    "engines": {
+      "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {
+      "kiss-cli": "^0.3.13"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Found incompatible module
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:186:110)
+      at checkOne (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:62444:11)
+      at Object.check (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:62463:5)
+      at /usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:22803:73
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:109:13
+      at <anonymous>
