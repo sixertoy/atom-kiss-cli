@@ -17,6 +17,10 @@
             {
               "label": "Insert",
               "command": "atom-kiss-cli:insert"
+            },
+            {
+              "label": "Show All Templates",
+              "command": "atom-kiss-cli:templates"
             }
           ]
         }

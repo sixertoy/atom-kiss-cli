@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-k": "atom-kiss-cli:insert"
+    "ctrl-alt-k": "atom-kiss-cli:insert",
+    "ctrl-alt-t": "atom-kiss-cli:templates"
   }
 }
