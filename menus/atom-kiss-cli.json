@@ -1,26 +1,14 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Insert Template",
-        "command": "atom-kiss-cli:insert"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Packages",
       "submenu": [
         {
-          "label": "Kiss Tempates",
+          "label": "Kiss",
           "submenu": [
             {
               "label": "Insert",
               "command": "atom-kiss-cli:insert"
-            },
-            {
-              "label": "Show All Templates",
-              "command": "atom-kiss-cli:templates"
             }
           ]
         }

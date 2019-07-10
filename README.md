@@ -12,12 +12,6 @@ ln -s ./atom-kiss-cli ~/.atom/packages/atom-kiss-cli
 
 ## Shortcut
 
-* Create a new file
-* Type a template name available in your .kiss folder. ex: dumb
-* Highlight the template's type press `ctrl+alt+k`
-
-**Show avalaible templates in terminal**
-
-```bash
-kiss -t
-```
+- Create a new file
+- Type a template name available in your .kiss folder. ex: dumb
+- Highlight the template's type press `ctrl+alt+k`

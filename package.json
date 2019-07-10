@@ -1,12 +1,19 @@
 {
   "name": "atom-kiss-cli",
-  "main": "./lib/atom-kiss-cli",
+  "main": "./lib/main",
   "version": "0.1.0",
-  "description": "Shareable agnostics templates (Keep It Stupid Simple)",
+  "description": "KISS Templates Atom Plugin",
   "keywords": [],
+  "repository": "https://github.com/atom/atom-kiss-cli",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
   "activationCommands": {
     "atom-workspace": "atom-kiss-cli:insert"
   },
-  "repository": "https://github.com/atom/atom-kiss-cli",
-  "license": "MIT"
+  "dependencies": {
+    "consistent-path": "^2.0.3",
+    "kiss-cli": "^0.4.2"
+  }
 }
