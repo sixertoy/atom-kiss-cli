@@ -14,6 +14,6 @@
   },
   "dependencies": {
     "consistent-path": "^2.0.3",
-    "kiss-cli": "^0.4.2"
+    "kiss-cli": "^0.4.10"
   }
 }
