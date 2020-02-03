@@ -37,10 +37,10 @@ jsonfile@^4.0.0:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-kiss-cli@^0.4.10:
-  version "0.4.10"
-  resolved "https://registry.yarnpkg.com/kiss-cli/-/kiss-cli-0.4.10.tgz#3e30634c7b497515c2a5807a75b3d46225c18338"
-  integrity sha512-zDmoZQn1fbJ6l9ShHOPwsEAdctGtZ3G4NcpiHaWhg1CRSQl977B7/3sSl+jMpTjekgK6+OoXotMlSwNr2zIi7w==
+kiss-cli@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/kiss-cli/-/kiss-cli-0.5.0.tgz#0c4319fa88fca8c743e44da7939688166d7c349f"
+  integrity sha512-BHQJJCKTMlEzbG19CmZgy4Nt4yAkmaqsAcYYgh2yh1+YKHqt2XrkNVNOneyG7hK/yn4etEF6EMDoDj1yCXNt3g==
   dependencies:
     fs-extra "^8.1.0"
 
