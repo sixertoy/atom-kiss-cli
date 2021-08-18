@@ -2,13 +2,13 @@
 
 Simple wrapper around [KISS](https://github.com/sixertoy/kiss-cli) shareable templates
 
-## Install
+## Development
 
 ```bash
 npm i -g kiss-cli
 git clone git@github.com:sixertoy/atom-kiss-cli.git
 ln -s $(pwd)/atom-kiss-cli ~/.atom/packages/atom-kiss-cli
-cd ~/.atom/packages/atom-kiss-cli && npm install
+cd ~/.atom/dev/packages/atom-kiss-cli && npm install
 ```
 
 ## Shortcut

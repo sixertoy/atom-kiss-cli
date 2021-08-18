@@ -1,10 +1,10 @@
 {
   "name": "atom-kiss-cli",
   "main": "./lib/main",
-  "version": "0.1.0",
-  "description": "KISS Templates Atom Plugin",
-  "keywords": [],
-  "repository": "https://github.com/atom/atom-kiss-cli",
+  "version": "0.0.0",
+  "description": "KISS Templates Atom Plugin. Full doc @npm kiss-cli",
+  "keywords": ["templates"],
+  "repository": "https://github.com/sixertoy/atom-kiss-cli.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -14,6 +14,6 @@
   },
   "dependencies": {
     "consistent-path": "^2.0.3",
-    "kiss-cli": "^0.5.0"
+    "kiss-cli": "^0.5.3"
   }
 }
